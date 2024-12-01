@@ -46,8 +46,7 @@ def main():
         st.title("CS 300 Final Project")
         st.markdown(
             '''
-            This project is a web application that will convert the given regular expressions below to Deterministic Finite Automata (DFA), 
-            Context-Free Grammars (CFG), and Pushdown Automata (PDA).
+            This project is a web application that will convert the given regular expressions below to Deterministic Finite Automata (DFA).
 
             **Regular Expressions**
             1. `(aba+bab) (a+b)* (bab) (a+b)* (a+b+ab+ba) (a+b+aa)*`
@@ -58,7 +57,7 @@ def main():
 
     # Code block for regex to dfa feature
     with regex_to_dfa_con:
-        st.subheader("Regular Expressions to Deterministic Finite Automata (DFA)")
+        st.subheader("Regex to Deterministic Finite Automata (DFA)")
         st.markdown(
             '''
             1. Select a given Regex from the select box. The application will perform the conversion and display 
