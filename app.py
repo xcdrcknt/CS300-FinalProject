@@ -6,7 +6,7 @@ import utils
 def main():
     # Set page title and icon
     st.set_page_config(
-        page_title="Automata Project",
+        page_title="CS 300 Final Project",
         page_icon="🔀"
     )
 
