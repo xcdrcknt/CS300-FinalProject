@@ -43,7 +43,7 @@ def main():
 
     # Code block for title and description
     with title_con:
-        st.title("Automata Project")
+        st.title("CS 300 Final Project")
         st.markdown(
             '''
             This project is a web application that will convert the given regular expressions below to Deterministic Finite Automata (DFA), 
