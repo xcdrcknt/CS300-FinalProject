@@ -58,7 +58,7 @@ def main():
 
     # Code block for regex to dfa feature
     with regex_to_dfa_con:
-        st.subheader("Regex to DFA, CFG, & PDA")
+        st.subheader("Regular Expressions to Deterministic Finite Automata (DFA)")
         st.markdown(
             '''
             1. Select a given Regex from the select box. The application will perform the conversion and display 
