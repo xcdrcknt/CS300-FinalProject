@@ -1,4 +1,4 @@
-# Automata Project
+# CS 300 Final Project
 
 This project is a web application that converts given regular expressions to Deterministic Finite Automata (DFA), Context-Free Grammars (CFG), and Pushdown Automata (PDA).
 
@@ -63,9 +63,3 @@ The `generate_pda_visualization` function generates a Graphviz graph for visuali
 #### String Validation
 
 The `validate_dfa` function validates a given string for a DFA. It checks each character of the string against the transitions of the DFA and returns a list of state checks indicating whether the transitions exist for each character. The function also handles special cases where transitions have multiple symbols
-
-## Developers
-- De Salit, John Patrick
-- Gamit, Mary Josephine
-- Uriarte, Philip Ronin
-- Uy, Richard Tyrese Michio
