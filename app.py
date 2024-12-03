@@ -121,7 +121,17 @@ def main():
                 current_pda = utils.pda_2
                 pda = utils.generate_pda_visualization(current_pda)
                 st.graphviz_chart(pda)
-
+  with cfg_and_pda_exp.expander("About the Developers"):
+            developers = [
+                "Kurt Andre Adodoli",
+                "Kurt Bustillos",
+                "Cedric Kent Centeno",
+                "Josh Russel Magpantay",
+                "John Kenneth Marzan"
+            ]
+            for developer in developers:
+                st.write(developer)
+                
         # Output for string_input, play validation animation on displayed dfa
         if validate_button or string_input:
             string_input = string_input.replace(" ", "")  # Removes any whitespaces
