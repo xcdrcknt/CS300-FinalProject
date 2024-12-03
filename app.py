@@ -113,7 +113,7 @@ def main():
                 dfa = utils.generate_dfa_visualization(current_dfa)
                 st.graphviz_chart(dfa)
 
-                    with cfg_and_pda_exp:
+        with cfg_and_pda_exp:
             st.write("**Context Free Grammar**")
             st.markdown(utils.cfg_1)
 
