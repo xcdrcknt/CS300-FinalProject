@@ -123,7 +123,7 @@ def main():
             st.graphviz_chart(pda)
 
         # Correctly indent this new expander
-         dev_expander = st.expander("About the Developers")
+        dev_expander = st.expander("About the Developers")
         with dev_expander:
             developers = [
                 "Kurt Andre Adodoli",
