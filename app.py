@@ -113,15 +113,17 @@ def main():
                 dfa = utils.generate_dfa_visualization(current_dfa)
                 st.graphviz_chart(dfa)
 
-            with cfg_and_pda_exp:
-                st.write("**Context Free Grammar**")
-                st.markdown(utils.cfg_2)
-                
-                st.write("**Pushdown Automaton**")
-                current_pda = utils.pda_2
-                pda = utils.generate_pda_visualization(current_pda)
-                st.graphviz_chart(pda)
-  with cfg_and_pda_exp.expander("About the Developers"):
+                    with cfg_and_pda_exp:
+            st.write("**Context Free Grammar**")
+            st.markdown(utils.cfg_1)
+
+            st.write("**Pushdown Automaton**")
+            current_pda = utils.pda_1
+            pda = utils.generate_pda_visualization(current_pda)
+            st.graphviz_chart(pda)
+
+        # Correctly indent this new expander
+        with cfg_and_pda_exp.expander("About the Developers"):
             developers = [
                 "Kurt Andre Adodoli",
                 "Kurt Bustillos",
